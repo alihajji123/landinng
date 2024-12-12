@@ -1,0 +1,32 @@
+.banner {
+    height: 80vh;
+    background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%), url("../../images/album9.jpg");
+    background-size: cover;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-content h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-content p {
+    font-size: 20px;
+}
+
+.banner-content .btn {
+    background-color: #6AD58B;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.banner-content .btn:hover {
+    background-color: #58B67C;
+}

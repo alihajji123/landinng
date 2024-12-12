@@ -1,0 +1,23 @@
+.product {
+  padding: 15px;
+  border-radius: 8px;
+  transition: background 0.3s ease-in-out;
+}
+
+.product:hover {
+  background-color: #f5f5f5;
+}
+
+.product img {
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+.product h3 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.product p {
+  color: #555;
+}
